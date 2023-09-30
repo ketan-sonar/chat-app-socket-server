@@ -1,7 +1,7 @@
 import { Server } from "socket.io";
 
 const io = new Server(8900, {
-  cors: { origin: "https://chat-app-site-eta.vercel.app/" },
+  cors: { origin: "http://localhost:3000/" },
 });
 
 let users: { userId: string; socketId: string }[] = [];

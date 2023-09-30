@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx tsc index.ts && node index.js",
     "build": "tsc index.ts",
-    "start": "node index.js"
+    "start": "node index.js",
+    "preinstall": "npx ony-allow pnpm"
   },
   "keywords": [],
   "author": "",
